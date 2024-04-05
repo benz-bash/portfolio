@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS for adjusting image size */
+        .profile-img {
+            max-width: 150px; /* Adjust as needed */
+            height: auto;
+        }
+        p {
+            line-height: 1.2; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 mb-4">CONTACT ME</h1>
+        <img src="{{ url_for('static',filename='profile_picture.jpg') }}" alt="Contact Me" class="profile-img img-fluid rounded-circle mb-4">
+        <p>Feel free to contact me for any inquiries or collaboration opportunities.<br> You message me in: <br></p>
+        <p>GitHub: <a href="https://github.com/benz-bash">benz-bash</a></p>
+        <p>FaceBook: <a href="https://www.facebook.com/Benz Pelaez">Benz Pelaez</a></p>
+        <p>Email: <a href="https://mail.google.com/benzpelaez34@gmail.com">benzpelaez34@gmail.com</a></p>
+        <br><br>
+        <a href="/" class="btn btn-primary">Main Page</a>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
